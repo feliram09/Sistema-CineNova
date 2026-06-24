@@ -1,6 +1,4 @@
-
 package com.mycompany.cinenova;
-
 /**
  * 
  * @author derek c Apuy
@@ -28,7 +26,7 @@ public class pelicula {
     }//Fin del constructor
  
 //Metodos :
-    public void mostra_Info_Peli(){//Inicio del metodo
+    public void mostrar_Info_Peli(){//Inicio del metodo
         System.out.println("Código: "+code+
                             "\nNombre de la película: "+nom_Peli+
                             "\nGenero: "+gen+
