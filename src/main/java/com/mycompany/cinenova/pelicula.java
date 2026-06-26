@@ -23,6 +23,7 @@ public class pelicula {
         this.duracion_Peli=duracion;
         this.clasi=clasificacion;
         this.sinopsis=sinopsis;
+        this.est = EstadoPelicula.Disponible;
     }//Fin del constructor
  
 //Metodos :

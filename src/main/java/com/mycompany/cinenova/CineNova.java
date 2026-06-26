@@ -38,10 +38,19 @@ public class CineNova {
     
         do{//Inicio del bucle del menú principal
             
-             opcion = Integer.parseInt(JOptionPane.showInputDialog("Digite alguna de las opciones: \n"
-                    + "1. Agregar película\n"
-                    + "2. Mostrar películas\n"
-                    + "3. Salir del sistema"));
+             opcion = Integer.parseInt(JOptionPane.showInputDialog(
+        "=== SISTEMA CINENOVA ===\n" +
+        "1. Agregar película\n" +
+        "2. Mostrar películas\n" +
+        "3. Editar película\n" +
+        "4. Crear función\n" +
+        "5. Mostrar funciones\n" +
+        "6. Buscar función\n" +
+        "7. Comprar boletos\n" +
+        "8. Mostrar boletos\n" +
+        "9. Reportes\n" +
+        "10. Salir del sistema\n" +
+        "\nDigite una opción:"));
              
             switch (opcion){//Inicio del switch del menú principal
                 
@@ -109,14 +118,48 @@ public class CineNova {
                     System.out.println("No hay peliculas registradas.");
                 }
                 break;//Fin del case 2
-                
-            case 3://Opción para salir del sistema
+            
+            case 3:
+                JOptionPane.showMessageDialog(null, "Funcionalidad en construcción.");
+                break;
+
+            case 4:
+                JOptionPane.showMessageDialog(null, "Funcionalidad en construcción.");
+                break;
+
+            case 5:
+                JOptionPane.showMessageDialog(null, "Funcionalidad en construcción.");
+                break;
+
+            case 6:
+                JOptionPane.showMessageDialog(null, "Funcionalidad en construcción.");
+                break;
+
+            case 7:
+                JOptionPane.showMessageDialog(null, "Funcionalidad en construcción.");
+                break;
+
+            case 8:
+                JOptionPane.showMessageDialog(null, "Funcionalidad en construcción.");
+                break;
+
+            case 9:
+                JOptionPane.showMessageDialog(null, "Funcionalidad en construcción.");
+                break;
+
+            case 10://Opción para salir del sistema
                 System.out.println("Gracias por usar nuestro Sistema!");
                 break;//Fin del case 3
 
+            default:
+                JOptionPane.showMessageDialog(null, "Opción inválida. Digite un número del 1 al 10.");
+                break;
+            
+
         }//Fin del switch del menú principal
-        } while (opcion != 3);//Fin del bucle, se repite mientras el usuario no elija salir
+        } while (opcion != 10);//Fin del bucle, se repite mientras el usuario no elija salir
         
     }
 }
 
+//case 3:
