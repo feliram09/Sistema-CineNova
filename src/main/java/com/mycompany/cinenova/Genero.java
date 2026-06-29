@@ -7,5 +7,5 @@ package com.mycompany.cinenova;
  * Este es el enum donde se establecen los valores para el genero de la pelicula.
  */
 public enum Genero {
-    Accion,Comedia,Drama,Terror,ciencia_Ficcion,Animacion,Aventura
+    Noasignado,Accion,Comedia,Drama,Terror,ciencia_Ficcion,Animacion,Aventura
 }
