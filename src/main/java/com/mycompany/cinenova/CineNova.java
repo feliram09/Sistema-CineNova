@@ -21,6 +21,7 @@ import javax.swing.JOptionPane;
  @author Derek Caravaca
  @author Felipe Ramirez
  @author Emanuel Camacho
+ @author Richard Morris
 */ 
 public class CineNova {
 
@@ -161,5 +162,3 @@ public class CineNova {
         
     }
 }
-
-//case 3:
